@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Александр\Documents\VisualProject\Project1\Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div>
+                <label for="Surname">Фамилия: </label>
+                <input id="Surname" type="text" name="Surname" placeholder="Иванов">
+            </div>
+            <div>
+                <label for="FirstName">Имя: </label>
+                <input id="FirstName" type="text" name="FirstName" placeholder="Иван">
+            </div>
+            <div>
+                <label for="MiddleName">Отчество: </label>
+                <input id="MiddleName" type="text" name="MiddleName" placeholder="Иванович">
+            </div>
+            <div>
+                <label for="mail">email: </label>
+                <input id="mail" type="text" name="mail" placeholder="mail@mail.ru">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+            <div>
+                <input type="radio" id="GenderChoice1" name="gender" value="male">
+                <label for="GenderChoice1">М</label> 
+                <input type="radio" id="GenderChoice2" name="gender" value="female">
+                <label for="GenderChoice2">Ж</label> 
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Хобби</legend>
+            <div>
+                <input type="checkbox" id="HobbyChoice1" name="hobby" value="painting">
+                <label for="HobbyChoice1">Рисование</label> 
+                <input type="checkbox" id="HobbyChoice2" name="hobby" value="reading">
+                <label for="HobbyChoice2">Чтение</label> 
+                <input type="checkbox" id="HobbyChoice3" name="hobby" value="knitting">
+                <label for="HobbyChoice3">Вязание</label> 
+                <input type="checkbox" id="HobbyChoice4" name="hobby" value="cooking">
+                <label for="HobbyChoice4">Кулинария</label> 
+            </div>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
